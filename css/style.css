@@ -97,13 +97,22 @@ textarea {
 
 /* animaciones de animate.css */
 .subtitulo_nosotros{
-  animation-duration: 5s;
-  animation-delay: 5s;
+  animation-duration: 3s;
+  animation-delay: 3s;
 }
 .ubicacion_titulo{
   animation-duration: 3s;
   animation-name: swing;
   animation-delay: 3s;
+}
+.servicios_animado{
+  animation-name: heartBeat;
+  animation-duration: 6s;
+  animation-delay: 3s;
+}
+.contacto_animado{
+  animation-name: wobble;
+  animation-duration: 3s;
 }
 /* Media Query */
 @media only screen and (min-width: 768px) and (mad-width: 991px) {
