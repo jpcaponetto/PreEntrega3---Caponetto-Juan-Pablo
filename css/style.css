@@ -95,6 +95,16 @@ textarea {
   resize: none;
 }
 
+/* animaciones de animate.css */
+.subtitulo_nosotros{
+  animation-duration: 5s;
+  animation-delay: 5s;
+}
+.ubicacion_titulo{
+  animation-duration: 3s;
+  animation-name: swing;
+  animation-delay: 3s;
+}
 /* Media Query */
 @media only screen and (min-width: 768px) and (mad-width: 991px) {
   .carousel-caption {
@@ -110,6 +120,7 @@ textarea {
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .navbar-nav {
     text-align: center;
