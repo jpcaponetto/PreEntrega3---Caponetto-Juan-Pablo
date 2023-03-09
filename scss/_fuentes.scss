@@ -6,3 +6,8 @@ $estilos: (
 estilio1: 15px 15px 40px rgba(0, 0, 0, 0.15),
 estilo2: #000
 );
+// Mixins 
+@mixin mixin1($fuente, $alto){
+    font-size: $fuente;
+    line-heigh: $alto
+}

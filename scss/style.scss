@@ -20,16 +20,17 @@ min-height: 300px;
     z-index: 2;
 }
 .carousel-caption h5 {
-    font-size: 45px;
+    @include mixin1(45px, normal);
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 25px;
+
 }
 .carousel-caption p{
-width: 60%;
-    margin: auto;
+    @include mixin1(18px, 1.9);
     font-size: 18px;
-    line-height: 1.9;
+    width: 60%;
+    margin: auto;
 }
 .carousel-inner::before{
     content: '';
@@ -79,7 +80,10 @@ iframe{
 textarea{
     resize: none;
 }
-
+.row{ 
+    margin: 0;
+    padding: 0;
+}
 
 /* Media Query */
 
