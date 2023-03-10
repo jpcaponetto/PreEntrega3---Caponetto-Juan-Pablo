@@ -43,25 +43,28 @@ min-height: 300px;
     z-index: 1;
     font-weight: $fuente-negrita;
 }
+.color-navbar{
+    color: map-get($map: $estilos, $key: estilo2)
+}
 .navbar-nav a{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
 }
 .navbar-light .navbar-brand{
-    color: map-get($map: $estilos, $key:estilo2);
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
     font-family: $fuente-navlink;
+    @extend .color-navbar;
 }
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover{
-    color: map-get($map: $estilos, $key:estilo2);
+    @extend .color-navbar;
 }
 .navbar-light .navbar-nav .navbar-link{
-    color: map-get($map: $estilos, $key:estilo2);
+    @extend .color-navbar;
 }
 .w-100{
     height: 100vh;
