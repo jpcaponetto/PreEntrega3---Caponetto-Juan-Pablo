@@ -52,6 +52,11 @@ body {
   font-weight: bold;
 }
 
+.color-navbar, .navbar-light .navbar-nav .navbar-link, .navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand {
+  color: #000;
+}
+
 .navbar-nav a {
   font-size: 15px;
   text-transform: uppercase;
@@ -59,21 +64,11 @@ body {
 }
 
 .navbar-light .navbar-brand {
-  color: #000;
   font-size: 25px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
   font-family: Lora;
-}
-
-.navbar-light .navbar-brand:focus,
-.navbar-light .navbar-brand:hover {
-  color: #000;
-}
-
-.navbar-light .navbar-nav .navbar-link {
-  color: #000;
 }
 
 .w-100 {
